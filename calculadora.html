@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - POE</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora</h1>
+        <div class="calculadora">
+            <div class="display" id="display">0</div>
+            
+            <div class="linha-botoes">
+                <button class="botao botao-clear" id="clear">C</button>
+                <button class="botao botao-backspace" id="backspace">⌫</button>
+                <button class="botao botao-unario" id="raiz">√</button>
+                <button class="botao botao-unario" id="porcentagem">%</button>
+            </div>
+            
+            <div class="linha-botoes">
+                <button class="botao botao-numero" data-numero="7">7</button>
+                <button class="botao botao-numero" data-numero="8">8</button>
+                <button class="botao botao-numero" data-numero="9">9</button>
+                <button class="botao botao-operacao" data-operacao="/">/</button>
+            </div>
+            
+            <div class="linha-botoes">
+                <button class="botao botao-numero" data-numero="4">4</button>
+                <button class="botao botao-numero" data-numero="5">5</button>
+                <button class="botao botao-numero" data-numero="6">6</button>
+                <button class="botao botao-operacao" data-operacao="*">×</button>
+            </div>
+            
+            <div class="linha-botoes">
+                <button class="botao botao-numero" data-numero="4">4</button>
+                <button class="botao botao-numero" data-numero="5">5</button>
+                <button class="botao botao-numero" data-numero="6">6</button>
+                <button class="botao botao-operacao" data-operacao="-">−</button>
+            </div>
+            
+            <div class="linha-botoes">
+                <button class="botao botao-numero" data-numero="1">1</button>
+                <button class="botao botao-numero" data-numero="2">2</button>
+                <button class="botao botao-numero" data-numero="3">3</button>
+                <button class="botao botao-operacao" data-operacao="+">+</button>
+            </div>
+            
+            <div class="linha-botoes">
+                <button class="botao botao-numero botao-zero" data-numero="0">0</button>
+                <button class="botao botao-igual" id="igual">=</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="calculadora.js"></script>
+</body>
+</html>
+
+
